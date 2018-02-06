@@ -1,6 +1,6 @@
 # Python 입문 (18.01.29 ~ )
 https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리한 내용입니다.
-<hr/>
+---
 
 ##### 1. Python 설치
 + www.python.org 에서 다운로드 메뉴 - Python 3.5이상 선택
@@ -8,14 +8,14 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 + 설치 확인
 	+ 윈도우키 + R : powershell 실행
 	+ powershell 화면에서 pthon 입력, 오류 나지 않으면 설치 완료
-<hr/>
+---
 
 ##### 2. 에디터 설치
 + NotePad++ 다운로드
 + 메뉴-파일-다른 이름으로 저장-test.py 내문서에 저장
 + test.py에 테스트 코드 작성 print("Hello!")릭
 + powershell에서 저장한 코드 실행 방법 python test.py
-<hr/>
+---
 
 ##### 3. Hello World! 실습
 + powershell 명령
@@ -26,7 +26,7 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 	+ 화면에 표시하고 싶은 글은 따옴표(')로 묶어서 표현
 + 함수란?
 	+ 파이썬이 특정한 기능을 수행하도록 하는 명령
-
+---
 
 ##### 4. 변수 사용하기
 + 변수의 선언
@@ -42,18 +42,22 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 		+ print('안녕 나는', identity, '이야')
 	+ 변수에 새로운 겂을 입력하는 방법을 선언과 동일하다.
 	+ identity = '외계인' 이라고 적으면, 이후부터 변수 identity의 값은 '외계인'이다.
-
+---
 
 ##### 5. 주석
 + 코드를 설명하기 위해 코드에 적어 놓은 프로그래밍 언어가 무시하는 문자
 + 코드를 임시로 작동하도록 끄기 이해서도 사용
 + #을 쓰고 오른쪽에 주석 입력
 + 여러줄을 주석 처리할 때는 따옴표 """로 그 내용을 둘러싼다.
-	+ # 내용
-	+ """
+	+ '#' 내용
+	+ """ 
+
 	  내용
+
 	  내용
+	  
 	  """
+---
 
 ##### 6. 숫자와 문자열
 + 숫자
@@ -64,6 +68,7 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 	+ 변수에 문자열을 넣는 예: my_name = 'Python'
 	+ 텍스트 두개를 더하면 문자열이 이어붙음: text = '2015'+'1991' -> '20151991'
 	+ 텍스트는 더하기만 가능하고, 빼기 등 다른 계싼은 불가능
+---
 
 ##### 7. REPL
 + Read-Eval-Print Loop
@@ -71,6 +76,7 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 + Powershell에서 파일 이름 없이 python 입력하면 나오는 창
 + 파이썬 코드를 한 줄씩 입력해서 데스트할 수 있는 창
 + REPL 창을 종료하려면 exit() 입력
+---
 
 ##### 8. Shell 사용법
 + Shell 명령어
