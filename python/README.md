@@ -1,8 +1,9 @@
 # Python 입문 (18.01.29 ~ )
+
 https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리한 내용입니다.
 ---
 
-##### 1. Python 설치
+#### 1. Python 설치
 + www.python.org 에서 다운로드 메뉴 - Python 3.5이상 선택
 + 설치 과정에서 "Add Python 3.5 to Path" 반드시 체크
 + 설치 확인
@@ -10,14 +11,14 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 	+ powershell 화면에서 pthon 입력, 오류 나지 않으면 설치 완료
 ---
 
-##### 2. 에디터 설치
+#### 2. 에디터 설치
 + NotePad++ 다운로드
 + 메뉴-파일-다른 이름으로 저장-test.py 내문서에 저장
-+ test.py에 테스트 코드 작성 print("Hello!")릭
++ test.py에 테스트 코드 작성 print("Hello!")
 + powershell에서 저장한 코드 실행 방법 python test.py
 ---
 
-##### 3. Hello World! 실습
+#### 3. Hello World! 실습
 + powershell 명령
 	+ ls: 현재 디렉토리(폴더)의 내용을 확인하는 명령
 	+ cd: powershell에서 현재 디렉토리(폴더)를 바꾸는명령
@@ -28,7 +29,7 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 	+ 파이썬이 특정한 기능을 수행하도록 하는 명령
 ---
 
-##### 4. 변수 사용하기
+#### 4. 변수 사용하기
 + 변수의 선언
 	+ identity = '지구인'
 	+ 변수의 이름: 가장 왼쪽에 identity 부분
@@ -44,25 +45,22 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 	+ identity = '외계인' 이라고 적으면, 이후부터 변수 identity의 값은 '외계인'이다.
 ---
 
-##### 5. 주석
+#### 5. 주석
 + 코드를 설명하기 위해 코드에 적어 놓은 프로그래밍 언어가 무시하는 문자
 + 코드를 임시로 작동하도록 끄기 이해서도 사용
 + #을 쓰고 오른쪽에 주석 입력
 + 여러줄을 주석 처리할 때는 따옴표 """로 그 내용을 둘러싼다.
-	+ '#' 내용
-	+ """ 
-
-	  내용
-
-	  내용
-	  
+	+ \# 내용
+	+ """   
+	  내용  
+	  내용  
 	  """
 ---
 
-##### 6. 숫자와 문자열
+#### 6. 숫자와 문자열
 + 숫자
 	+ 변수에 숫자를 넣는 예: my_age = 25
-	+ 내용 추가
+	+ 숫자는 계산이 가능: +, \*, /, \*\*(거듭제곰), %
 + 문자열
 	+ 따옴표로 감싼 글
 	+ 변수에 문자열을 넣는 예: my_name = 'Python'
@@ -70,7 +68,7 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 	+ 텍스트는 더하기만 가능하고, 빼기 등 다른 계싼은 불가능
 ---
 
-##### 7. REPL
+#### 7. REPL
 + Read-Eval-Print Loop
 + (코드를) 읽어서 평가(실행)하고 (실행한 결과를) 출력하는 루프(반복)
 + Powershell에서 파일 이름 없이 python 입력하면 나오는 창
@@ -78,7 +76,7 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 + REPL 창을 종료하려면 exit() 입력
 ---
 
-##### 8. Shell 사용법
+#### 8. Shell 사용법
 + Shell 명령어
 	+ pwd : 현재 폴더 경로 출력
 	+ ls : 현재 폴더 내용물 출력
@@ -86,5 +84,5 @@ https://programmers.co.kr/learn/courses/2  링크에서 강의를 듣고 정리�
 	+ cd .. : 상위 폴더로 이동
 	+ cp : 파일을 다른 이름으로 복사
 	+ rm : 파일 삭제
-+ 파일 이름 자동완성 : 앞 1~2글자 입력하고 tab키 클
++ 파일 이름 자동완성 : 앞 1~2글자 입력하고 tab키 클릭
 	
