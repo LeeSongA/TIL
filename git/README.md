@@ -9,3 +9,13 @@
 - GitHub(깃 저장소)로 부터 저장소를 내려 받음  
 ---
 
+### 2. 수정한 파일 서버로 업로드
+```
+git add 파일명
+git commit -m "내용"
+git push origin master
+```
+- `add` : 인덱스에 파일 내용을 추가
+- `commit` : 저장소에 변경사항을 기록
+- `push` : 변경 내용을 서버로 올림
+
