@@ -18,4 +18,27 @@ git push origin master
 - `add` : 인덱스에 파일 내용을 추가
 - `commit` : 저장소에 변경사항을 기록
 - `push` : 변경 내용을 서버로 올림
+---
+
+### 3. 풀리퀘스트
+```
+풀리퀘스트하고 싶은 사이트에서 fork 버튼을 누른다.
+git clone [포크해온 내 주소]
+cd [포크해온 폴더]
+git remote add upstream [원본 주소]
+git fetch upstream		// 원본 주소에서 자료 가져오기
+git merge upstream/master	
+```
+- 수정한 후에, 수정한 파일 서버로 업로드 과정과 동일
+```
+git add .			
+git commit -m "내용"
+git push origin master
+```
+
+```
+[포크해온 내 주소]로 들어간다.
+New pull request 버튼 클릭
+Create pull request 버튼 클릭
+```
 
