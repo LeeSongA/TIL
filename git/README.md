@@ -1,4 +1,4 @@
-# Git 사용법 (18.02.13 ~ )  
+﻿# Git 사용법 (18.02.13 ~ )  
 > Git을 사용하면서 정리한 기본적인 Git 사용법입니다.  
 
 ### 1. GitHub로부터 저장소 내려 받기  
@@ -41,4 +41,19 @@ git push origin master
 New pull request 버튼 클릭
 Create pull request 버튼 클릭
 ```
+---
+
+### 4. Git에서 ignore 파일 설정
+- 이클립스 이용하기
+	- 무시할 [폴더/파일] 오른쪽 클릭 > Team > ignore
+	- 무시할 [폴더/파일] 삭제한 후 git에 업데이트
+- 직접하기
+	- git을 받은 폴더로 이동
+	- .git이 있는 폴더 내에 .gitignore 파일 생성
+	- .gitignore 파일에 무시할 [폴더/파일[ 작성
+	- 해당하는 파일 삭제 후, git에 업로드
+- .gitignore 설정 후 적용되지 않았을 때, 문제 해결
+	- git rm -r --cached .
+	- 파일 생성, 내용 작성
+	- git에 업로드
 
