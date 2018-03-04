@@ -50,8 +50,8 @@ Create pull request 버튼 클릭
 - 직접하기
 	- git을 받은 폴더로 이동
 	- .git이 있는 폴더 내에 .gitignore 파일 생성
-	- .gitignore 파일에 무시할 [폴더/파일[ 작성
-	- 해당하는 파일 삭제 후, git에 업로드
+	- .gitignore 파일에 무시할 [폴더/파일] 작성
+	- git에 업로드
 - .gitignore 설정 후 적용되지 않았을 때, 문제 해결
 	- git rm -r --cached .
 	- 파일 생성, 내용 작성
